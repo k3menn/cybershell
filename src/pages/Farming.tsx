@@ -99,7 +99,7 @@ const AddButton = styled(Button)({
 const Farming = () => {
   const [sessionTime, setSessionTime] = useState('00:00:00');
   const [isActive, setIsActive] = useState(false);
-  const [batteryCharge, setBatteryCharge] = useState(75);
+  const [batteryCharge] = useState(75);
 
   useEffect(() => {
     let interval: NodeJS.Timeout;
