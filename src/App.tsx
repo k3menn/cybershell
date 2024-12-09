@@ -10,7 +10,7 @@ import { PrivateRoute } from './components/PrivateRoute';
 import { Footer } from './components/Footer';
 import { Box } from '@mui/material';
 
-const DEV_MODE = true; // Toggle this for development
+const DEV_MODE = false; // Toggle this for development
 
 function App() {
   return (
