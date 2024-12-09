@@ -8,3 +8,17 @@ mkdir -p src/{components,pages,store,utils,hooks,api,assets,styles,locales}
 mkdir -p public
 touch public/favicon.ico
 npm start
+echo "node_modules
+build
+.env
+.env.local
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*" > .gitignore
+git init
+git add .
+git commit -m "Initial commit: Telegram Mini App - Cybershell Frontend"
+git remote add origin https://github.com/yourusername/cybershell-frontend.git
+git branch -M main
+git push -u origin main
